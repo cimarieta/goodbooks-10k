@@ -14,6 +14,8 @@ Open the [notebook](quick_look.ipynb) for a quick look at the data. Download ind
 
 The dataset is accessible from [Spotlight](https://maciejkula.github.io/spotlight/datasets/goodbooks.html), recommender software based on PyTorch.
 
+A smaller version of the dataset was generated with the [notebook](create_smaller_datasets.ipynb) and is under the folder [reduced](reduced). In the `reduced` folder, a single file [books\_summary.csv](reduced/books_summary.csv) contains the main textual information of `books` and `tags`.
+
 ## Contents
 
 **ratings.csv** contains ratings sorted by time. It is 69MB and looks like that:
